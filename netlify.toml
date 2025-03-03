@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/script.js"
+  [headers.values]
+    Content-Type = "application/javascript"

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Draw - Higher or Lower?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎪 Lucky Draw - Higher or Lower? 🎪</h1>
+    <p>💰 Money: <span id="money">10</span></p>
+    <p>⭐ Prizes: <span id="prizes"></span></p>
+
+    <div id="card" class="card">?</div>
+
+    <button onclick="guess('higher')">Higher</button>
+    <button onclick="guess('lower')">Lower</button>
+
+    <div id="popup" class="popup">
+        <p id="popup-message"></p>
+        <button onclick="playAgain()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
